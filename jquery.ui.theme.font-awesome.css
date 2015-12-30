@@ -9,31 +9,31 @@
  * FontAwesome @font-face somewhere in your CSS. Don't forget it, it's important!
  */
 .ui-icon {
-  display: inline-block;
-  line-height: 1em;
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 14px;
-  text-decoration: inherit;
-  text-align: center;
-  text-indent: 0;
-  background-image: none !important;
-  background-position: 0% 0%;
-  background-repeat: repeat;
-  cursor: default;
+    display: inline-block;
+    line-height: 1em;
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: inherit;
+    text-align: center;
+    text-indent: 0;
+    background-image: none !important;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    cursor: default;
 }
 
 li .ui-icon {
-  float: left;
+    float: left;
 }
 
 a .ui-icon {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .ui-icon:before {
-  display: inline-block;
+    display: inline-block;
 }
 
 /* 1st, 2nd & 3rd line, all together */
@@ -252,11 +252,11 @@ a .ui-icon {
 .ui-icon-arrow-1-se,
 .ui-icon-arrow-1-sw,
 .ui-icon-arrow-1-nw {
-  -webkit-transform: rotate(45deg);
-     -moz-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-       -o-transform: rotate(45deg);
-          transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .ui-icon-arrowreturnthick-1-n,
@@ -264,59 +264,59 @@ a .ui-icon {
 .ui-icon-arrow-2-se-nw,
 .ui-icon-arrowthick-2-se-nw,
 .ui-icon-triangle-2-e-w {
-  -webkit-transform: rotate(90deg);
-     -moz-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-       -o-transform: rotate(90deg);
-          transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .ui-icon-arrowreturnthick-1-e,
 .ui-icon-arrowreturn-1-e {
-  -webkit-transform: rotate(180deg);
-     -moz-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-       -o-transform: rotate(180deg);
-          transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 .ui-icon-arrowreturnthick-1-s,
 .ui-icon-arrowreturn-1-s {
-  -webkit-transform: rotate(270deg);
-     -moz-transform: rotate(270deg);
-      -ms-transform: rotate(270deg);
-       -o-transform: rotate(270deg);
-          transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
 }
 
 /* Hover state */
 .ui-state-hover .ui-icon {
-  color: #454545;
+    color: #454545;
 }
 
 .ui-datepicker .ui-datepicker-prev,
 .ui-datepicker .ui-datepicker-next {
-  border: 1px solid #bbb;
-  background-color: #e6e6e6;
-  background-repeat: no-repeat;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
-  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
-  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
-  background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6);
-  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
-  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
-  color: #555;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75)
+    border: 1px solid #bbb;
+    background-color: #e6e6e6;
+    background-repeat: no-repeat;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    color: #555;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75)
 }
 
 .ui-datepicker .ui-datepicker-prev-hover, 
 .ui-datepicker .ui-datepicker-next-hover {
-  border: 1px solid #999999;
-  background-position: 0 -15px;
-  font-weight: normal;
-  -webkit-transition: 0.1s linear background-position;
-     -moz-transition: 0.1s linear background-position;
-      -ms-transition: 0.1s linear background-position;
-       -o-transition: 0.1s linear background-position;
-          transition: 0.1s linear background-position;
+    border: 1px solid #999999;
+    background-position: 0 -15px;
+    font-weight: normal;
+    -webkit-transition: 0.1s linear background-position;
+    -moz-transition: 0.1s linear background-position;
+    -ms-transition: 0.1s linear background-position;
+    -o-transition: 0.1s linear background-position;
+    transition: 0.1s linear background-position;
 }
