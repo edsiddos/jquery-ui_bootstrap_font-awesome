@@ -10,11 +10,11 @@
  */
 .ui-icon {
     display: inline-block;
-    line-height: 1em;
+    /*line-height: 1em;*/
     font-family: FontAwesome;
     font-weight: normal;
     font-style: normal;
-    font-size: 14px;
+    font-size: 15px;
     text-decoration: inherit;
     text-align: center;
     text-indent: 0;
