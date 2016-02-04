@@ -1,27 +1,27 @@
 {
-  "name": "jsMyCall",
-  "homepage": "https://github.com/edsiddos/jsMyCall",
-  "authors": [
-    "Ednei Leite da Silva <edsiddos@gmail.com>"
-  ],
-  "description": "Inspired style on jQuery UI, Bootstrap and Font-Awesome.",
-  "main": "",
-  "moduleType": [],
-  "keywords": [
-    "jQuery-ui",
-    "Bootstrap",
-    "Font-Awesome"
-  ],
-  "license": "MIT",
-  "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "font-awesome": "~4.5.0"
-  }
+    "name": "jsMyCall",
+    "homepage": "https://github.com/edsiddos/jsMyCall",
+    "authors": [
+        "Ednei Leite da Silva <edsiddos@gmail.com>"
+    ],
+    "description": "Inspired style on jQuery UI, Bootstrap and Font-Awesome.",
+    "main": "",
+    "moduleType": [],
+    "keywords": [
+        "jQuery-ui",
+        "Bootstrap",
+        "Font-Awesome"
+    ],
+    "license": "MIT",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "font-awesome": "~4.5.0"
+    }
 }

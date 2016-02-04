@@ -1,3 +1,11 @@
+.ui-button-text-icon-primary .ui-button-icon-primary,
+.ui-button-text-icons .ui-button-icon-primary,
+.ui-button-icons-only .ui-button-icon-primary {
+  left: 2px; }
+
+.ui-button-icon-only .ui-icon {
+  margin-left: -10px; }
+
 .ui-spinner-button {
   width: 22px; }
 
