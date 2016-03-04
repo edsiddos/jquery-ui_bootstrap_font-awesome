@@ -54,19 +54,15 @@ a .ui-icon {
 
 /* "Triangle" directionals */
 .ui-icon-triangle-1-ne:before,
-.ui-icon-circle-triangle-n:before,
 .ui-icon-triangle-1-n:before        { content: $fa-var-caret-up; }
 
 .ui-icon-triangle-1-se:before,
-.ui-icon-circle-triangle-e:before,
 .ui-icon-triangle-1-e:before        { content: $fa-var-caret-right; }
 
 .ui-icon-triangle-1-sw:before,
-.ui-icon-circle-triangle-s:before,
 .ui-icon-triangle-1-s:before        { content: $fa-var-caret-down; }
 
 .ui-icon-triangle-1-nw:before,
-.ui-icon-circle-triangle-w:before,
 .ui-icon-triangle-1-w:before        { content: $fa-var-caret-left; }
 
 .ui-icon-triangle-2-e-w:before,
@@ -209,10 +205,10 @@ a .ui-icon {
 .ui-icon-circle-plus:before         { content: $fa-var-plus-circle; }
 .ui-icon-circle-minus:before        { content: $fa-var-minus-circle; }
 .ui-icon-circle-close:before        { content: $fa-var-times-circle; }
-.ui-icon-circle-triangle-e:before   { content: $fa-var-caret-square-o-right; }
-.ui-icon-circle-triangle-s:before   { content: $fa-var-caret-square-o-down; }
-.ui-icon-circle-triangle-w:before   { content: $fa-var-caret-square-o-left; }
-.ui-icon-circle-triangle-n:before   { content: $fa-var-caret-square-o-up; }
+.ui-icon-circle-triangle-e:before   { content: $fa-var-play-circle; }
+.ui-icon-circle-triangle-s:before   { content: $fa-var-play-circle; }
+.ui-icon-circle-triangle-w:before   { content: $fa-var-play-circle; }
+.ui-icon-circle-triangle-n:before   { content: $fa-var-play-circle; }
 
 /* 8th line */
 .ui-icon-circle-arrow-e:before      { content: $fa-var-arrow-circle-right; }
@@ -265,6 +261,7 @@ a .ui-icon {
 .ui-icon-arrowreturn-1-n,
 .ui-icon-arrow-2-se-nw,
 .ui-icon-arrowthick-2-se-nw,
+.ui-icon-circle-triangle-s,
 .ui-icon-triangle-2-e-w {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -274,6 +271,7 @@ a .ui-icon {
 }
 
 .ui-icon-arrowreturnthick-1-e,
+.ui-icon-circle-triangle-w,
 .ui-icon-arrowreturn-1-e {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -282,6 +280,7 @@ a .ui-icon {
     transform: rotate(180deg);
 }
 
+.ui-icon-circle-triangle-n,
 .ui-icon-pin-w,
 .ui-icon-arrowreturnthick-1-s,
 .ui-icon-arrowreturn-1-s {
